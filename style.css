@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(215, 240, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boadrd {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boadrdt {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(62, 124, 62);
+}
+
+.boadrdb {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgb(179, 218, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap:5;
+    overflow: hidden;
+}
+
+.info {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap:69px;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+}
+
+.info-title{
+    color: white;
+    font-weight: 600;
+
+}
+
+.box {
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    color: green;
+    font-weight: 800;
+}
+
+.buuble{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buuble:active{
+    background-color: rgb(54, 87, 4);
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+}
